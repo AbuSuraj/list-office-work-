@@ -1,6 +1,20 @@
-<ul *ngFor="let name of programmingLanguages; index as i">
+<!-- <ul *ngFor="let name of programmingLanguages; index as i">
   <li>
     {{name}}
   </li>
-</ul>
+</ul> -->
+<div style="text-align:start; background-color: #FAEBD7">
+  <h2>
+      Progamming Langueses list from local json file...
+  </h2>
+  <ul *ngFor="let item of programmingLanguages; index as i ">
+    
+     <li *ngIf="i %2 ==0">
+        <h3 style="color: blue;"> Name :{{item.name}}</h3>
+     </li>
+     <li *ngIf="i %2 ==1">
+        <h3 style="color: red;"> Name :{{item.name}}</h3>
+     </li>
+  </ul>
+</div>
 <router-outlet></router-outlet>

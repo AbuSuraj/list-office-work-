@@ -1,0 +1,23 @@
+[
+    {"name" : "C", "code" : "AF"},
+    {"name" : "C++", "code" : "AX"},
+    {"name" : "C#", "code" : "AL"},
+    {"name" : "Python", "code" : "DZ"},
+    {"name" : "Java", "code" : "AS"},
+    {"name" : "JavaScript", "code" : "AD"},
+    {"name" : "Visual Basic", "code" : "AO"},
+    {"name" : "PHP", "code" : "AI"},
+    {"name" : "R", "code" : "AQ"},
+    {"name" : "SQL", "code" : "AG"},
+    {"name" : "Assembly language", "code" : "AR"},
+    {"name" : "Groovy ", "code" : "AM"},
+    {"name" : "HTML ", "code" : "AM"},
+    {"name" : "CSS ", "code" : "AM"},
+    {"name" : "SWIFT ", "code" : "AM"},
+    {"name" : "GoLANG ", "code" : "AM"},
+    {"name" : "TypeScript ", "code" : "AM"},
+    {"name" : "Ruby ", "code" : "AM"},
+    {"name" : "Matlab ", "code" : "AM"},
+    {"name" : "Rust ", "code" : "AM"}
+ 
+    ]
