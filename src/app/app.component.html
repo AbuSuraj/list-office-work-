@@ -10,11 +10,12 @@
   <ul *ngFor="let item of programmingLanguages; index as i ">
     
      <li *ngIf="i %2 ==0">
-        <h3 style="color: blue;"> Name :{{item.name}}</h3>
+        <h3 style="color: blue;"> <a target="_blank" style="text-decoration: none" href="{{item.code}}">Name :{{item.name}}</a> </h3>
      </li>
      <li *ngIf="i %2 ==1">
-        <h3 style="color: red;"> Name :{{item.name}}</h3>
+        <h3 style="color: red;"> <a target="_blank" style="color: red; text-decoration: none;" href="{{item.code}}"> Name :{{item.name}}</a></h3>
      </li>
   </ul>
 </div>
+<app-users></app-users>
 <router-outlet></router-outlet>
