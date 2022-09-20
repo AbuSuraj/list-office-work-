@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'list';
+  programmingLanguages = ['C','C++','C#', 'pytthon','java', 'javaScript','R', "PHP" ]
 }
